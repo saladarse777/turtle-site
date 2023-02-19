@@ -4,8 +4,8 @@ $('#simpleButton2').click(function() {
 });
 
 if (/Mobi/.test(navigator.userAgent)) {
-    alert("You are using a mobile device to view this website, it is not recommended and may cause the website to look scuffed.");
-    alert("このウェブサイトはモバイル端末でご覧いただいていますが、推奨環境ではありませんし、スカスカに見えることがあります。");
+    alert("This website is not supported for mobile yet, it may look jank.");
+    alert("このウェブサイトはまだモバイルに対応していません、それは悪い書式になる可能性があります。");
 }
 
 console.log(window.location.pathname, "にいます");
