@@ -8,7 +8,8 @@
   
       if (answer) {
         window.location.assign('https://www.seeturtles.org/');
-      } else {
+      } 
+      else {
         alert("You clicked 'Cancel'");
       }
     });
