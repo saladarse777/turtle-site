@@ -116,6 +116,7 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    gap: 10px;
 }
 
 .nav {
